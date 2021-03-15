@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+      .about{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+      }
+  </style>
+</head>
+<body>
+
+<nav class="navbar   bg-white navbar-dark">
+
+  <button class="navbar-toggler float-left bg-secondary " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand mx-auto text-body" href="#">My Food</a>
+  <ul class="navbar-nav">
+   <li class="nav-item">
+   <a class="nav-link float-right text-body" href="#">Mail</a>
+   </li>
+   </ul>
+  <div class="collapse navbar-collapse text-body" id="collapsibleNavbar">
+    <ul class="navbar-nav text-body">
+      <li class="nav-item">
+        <a class="nav-link text-body" href="#">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-body" href="#">Order</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-body" href="#">Contact</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 p-3">
+            <div class="card">
+            <img class="card-img-top" src="pancakes.jpg" style="width: 100%; height:300px;">
+            <div class="card-body text-center">
+              <h4 class="card-title">Pancakes</h4>
+              <p class="card-text">peanut butter pancakes with fruits</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-3 p-3">
+            <div class="card">
+            <img class="card-img-top" src="waffle.jpg" style="width: 100%; height:300px;">
+            <div class="card-body text-center">
+              <h4 class="card-title">Belgian Waffle</h4>
+              <p class="card-text">Waffles with honey and strawberry</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-3 p-3">
+            <div class="card">
+                <img class="card-img-top" src="bread.jpg" style="width: 100%; height:300px;">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Egg Toast</h4>
+                  <p class="card-text">Avocado toast topped with an egg</p>
+                </div>
+                </div>
+
+        </div>
+        <div class="col-sm-3 p-3">
+            <div class="card">
+                <img class="card-img-top" src="oats.jpg" style="width: 100%; height:300px;">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Oats</h4>
+                  <p class="card-text">Honey muesli with raspberries & hazelnuts</p>
+                </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 p-3">
+                <div class="card">
+                <img class="card-img-top" src="salad.jpg" style="width: 100%; height:300px;">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Taco Salad</h4>
+                  <p class="card-text">With ground turkey, black beans,and Greek yogurt salsa</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-3 p-3">
+                <div class="card">
+                <img class="card-img-top" src="spaghetti.jpeg" style="width: 100%; height:300px;">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Baked Spaghetti</h4>
+                  <p class="card-text">This mash-up of lasagna and spaghetti with meat sauce</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3 p-3">
+                <div class="card ">
+                    <img class="card-img-top" src="shrimps.jpg" style="width: 100%; height:300px;">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Shrimp Fajitas</h4>
+                      <p class="card-text">Flavorful meal with shrimp, peppers and onion</p>
+                    </div>
+                    </div>
+    
+            </div>
+            <div class="col-sm-3 p-3">
+                <div class="card">
+                    <img class="card-img-top" src="salami.jpg" style="width: 100%; height:300px;">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">
+                        Salami Stromboli</h4>
+                      <p class="card-text">This is a family favorite and perfect for entertaining</p>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div><br>
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link text-dark" href="javascript:void(0);">	&lt;&lt;</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="javascript:void(0);">3</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="javascript:void(0);">4</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="javascript:void(0);">&gt;&gt;</a></li>
+      </ul><br>
+      <div class="row">
+          <div class="col-sm-12 p-3 about shadow">
+<h3>About Me,The Food Man</h3> <br>
+<img src="chef.jpg" class="img-fluid" width="460" height="345"><br>
+<h5 class="text-dark">I am Who I Am!</h5>
+<p class="font-italic text-secondary">With Passion For Real Good Food</p>
+<p class=" text-center font-weight-bolder font-italic text-muted">I find the height of my purpose working with my hands, collaborating with farmers, serving my community. That farmer that needs you to buy his bell peppers is the same as the homeless guy on the street asking for money. Everybody’s just trying to get their needs met.
+    No rules. Don't be afraid to do whatever you want. Cooking doesn't have to have rules. I don't like it that way.
+</p>
+          </div>
+      </div>
+      <br> <hr>
+      <div class="row">
+          <div class="col-sm-4 p-3">
+<footer>
+    <h2 class="text-dark">FOOTER</h2><br>
+    <p class="font-italic text-muted">My biggest problem with prejudice is the prejudice against plant-based food. Not as a woman, not as a black woman, but getting you to eat your plants. Getting you to pay for them. Finding staff who want to cook that way. That’s a struggle I can take on, even though there’s no road map for success for that.</p>
+</footer>
+          </div>
+          <div class="col-sm-4 pb-3">
+              <div class="row">
+                  <div class="col-sm-12 p-3">
+<h2 class="text-dark">BLOG POSTS</h2>
+
+<img src="female2.png"  class="float-left pr-2" style="width:100px;">
+<h5 class="text-left  pt-3">Lorem</h5>
+<p class="text-muted">Sed mattis</p>
+</div>
+</div><hr>
+<div class="row">
+    <div class="col-sm-12 ">
+        
+            <img src="ava2.png"  class="float-left pr-2" style="width:100px;">
+            
+        <h5 class="text-left  pt-3">Ipsum</h5>
+        <p class="text-muted">Tensi sed</p>
+        
+    </div>
+</div>
+          </div>
+          <div class="col-sm-4 p-3">
+            <h2 class="text-dark">POPULAT TAGS</h2> <br>
+            <span class="badge badge-dark pr-2 pl-2 rounded-0" style="background-color: black;">Travel</span>
+<span class="badge badge-dark pr-2 pl-2 rounded-0">New York</span>
+<span class="badge badge-dark pr-2 pl-2 rounded-0">Food</span>
+<span class="badge badge-dark pr-2 pl-2 rounded-0">Dinner</span>
+<span class="badge badge-dark pr-2 pl-2 rounded-0">Fish</span>
+<span class="badge badge-dark pr-2 pl-2 rounded-0">Chicken</span>
+<span class="badge badge-dark pr-2 pl-2 rounded-0">Breakfast</span>
+<span class="badge badge-dark pr-2 pl-2 rounded-0">Lunch</span>
+          </div>
+      </div>
+</div>
+</body>
+</html>
